@@ -59,28 +59,28 @@ const About = () => {
                     href="https://github.com/omsherikar"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-[#64ffda] transition-all duration-300 p-2 rounded-full border border-gray-600 bg-gray-900/30 backdrop-blur-sm hover:backdrop-blur-md hover:translate-z-10 hover:shadow-[0_0_15px_rgba(100,255,218,0.2)] hover:scale-110"
+                    className="text-gray-400 hover:text-[#64ffda] transition-all duration-300 p-2 rounded-full border border-gray-600 bg-gray-900/30 backdrop-blur-sm hover:backdrop-blur-md hover:scale-110"
                   >
                     <Image
                       src="/social/github.svg"
                       alt="GitHub"
                       width={24}
                       height={24}
-                      className="invert"
+                      className="invert transition-all duration-300 hover:blur-[1px]"
                     />
                   </motion.a>
                   <motion.a
                     href="https://linkedin.com/in/omsherikar0229"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-[#64ffda] transition-all duration-300 p-2 rounded-full border border-gray-600 bg-gray-900/30 backdrop-blur-sm hover:backdrop-blur-md hover:translate-z-10 hover:shadow-[0_0_15px_rgba(100,255,218,0.2)] hover:scale-110"
+                    className="text-gray-400 hover:text-[#64ffda] transition-all duration-300 p-2 rounded-full border border-gray-600 bg-gray-900/30 backdrop-blur-sm hover:backdrop-blur-md hover:scale-110"
                   >
                     <Image
                       src="/social/linkedin.svg"
                       alt="LinkedIn"
                       width={24}
                       height={24}
-                      className="invert"
+                      className="invert transition-all duration-300 hover:blur-[1px]"
                     />
                   </motion.a>
                 </div>
